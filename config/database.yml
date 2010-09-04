@@ -1,0 +1,12 @@
+base: &base
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  pool: 5
+  username: root
+  password: kenrome
+  host: localhost
+
+development:
+  <<: *base
+  database: tuanao
